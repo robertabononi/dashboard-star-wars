@@ -1,0 +1,80 @@
+.cards {
+    display: flex;
+    gap: 3.125vw;
+
+    .card {
+        background-color: #fff;
+        box-shadow: 0.277777778vw 0.277777778vw 1.04166667vw rgba(0, 0, 0, 0.25);
+        border-radius: 1.11111111vw;
+        width: 16.5972222vw;
+        height: 14.6666667vh;
+        padding: 0 1.66666667vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.73611111vw;
+
+        &__infos {
+            .card-title {
+                font-weight: 500;
+                font-size: 1.11111111vw;
+            }
+
+            .card-number {
+                color: #FFBA33;
+                font-weight: 900;
+                font-size: 3.75vw;
+            }
+        }
+
+        &__image {
+            img {
+                width: 4.166666667vw;
+            }
+        }
+    }
+
+    .double-cards {
+        background-color: #fff;
+        box-shadow: 0.277777778vw 0.277777778vw 1.04166667vw rgba(0, 0, 0, 0.25);
+        border-radius: 1.11111111vw;
+        width: 32.2222222vw;
+        height: 14.6666667vh;
+        padding: 0 1.66666667vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .double-card {
+            display: flex;
+            align-items: center;
+            gap: 2.63888889vw;
+
+            &__infos {
+                .card-title {
+                    font-weight: 500;
+                    font-size: 1.11111111vw;
+                }
+    
+                .card-number {
+                    color: #FFBA33;
+                    font-weight: 900;
+                    font-size: 3.75vw;
+                }
+            }
+    
+            &__image {
+                img {
+                    width: 4.166666667vw;
+                }
+            }
+        }
+
+        .divisor {
+            border: 0.0694444444vw solid #000;
+            height: 73px;
+        }
+    }
+}
