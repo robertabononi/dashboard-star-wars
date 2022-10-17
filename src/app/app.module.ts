@@ -6,13 +6,15 @@ import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.com
 import { CardsComponent } from './components/cards/cards.component';
 import { LastMoviesComponent } from './components/last-movies/last-movies.component';
 import { DashboardService } from './services/dashboard.service';
+import { ChartComponent } from './components/chart/chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuLateralComponent,
     CardsComponent,
-    LastMoviesComponent
+    LastMoviesComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
