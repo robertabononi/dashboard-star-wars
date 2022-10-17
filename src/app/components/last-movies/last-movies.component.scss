@@ -1,0 +1,52 @@
+.last-movies-board {
+    background-color: #fff;
+    width: 44.5833333vw;
+    padding: 2.84722222vw;
+    box-shadow: 0 0.277777778vw 1.04166667vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.11111111vw;
+
+    h3 {
+        font-weight: 700;
+        font-size: 1.25vw;
+        padding-bottom: 0.555555556vw;
+    }
+
+    .subtitle {
+        font-weight: 400;
+        font-size: 1.11111111vw;
+        color: #5E5E5E;
+    }
+
+    .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            height: 6.94444444vw;
+            padding-top: 1.31944444vw;
+        }
+    }
+
+    table {
+        padding-top: 1.31944444vw;
+        border-spacing: 0;
+        width: 36.7388889vw;
+
+        tr th {
+            border-bottom: 0.0694444444vw solid #5E5E5E;
+            color: #5E5E5E;
+            font-weight: 700;
+            font-size: 1.11111111vw;
+            padding-bottom: 0.277777778vw;
+            text-align: left;
+        }
+
+        tr td {
+            border-bottom: 0.0694444444vw solid #E9E9E9;
+            color: #5E5E5E;
+            padding: 0.763888889vw 0 0.347222222vw 0;
+            font-weight: 400;
+            font-size: 1.11111111vw;
+        }
+    }
+}

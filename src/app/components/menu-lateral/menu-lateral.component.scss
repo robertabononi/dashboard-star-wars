@@ -9,16 +9,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5.77777778vh;
+    gap: 3.61111111vw;
 
     .image-logo {
-        height: 7.90444444vh;
+        height: 4.94027778vw;
     }
 
     .menu-items {
         display: flex;
         flex-direction: column;
-        gap: 4.11111111vh;
+        gap: 2.56944444vw;
 
         .menu-item {
             display: flex;
@@ -29,6 +29,7 @@
             list-style: none;
 
             img {
+                width: 10.3819444vw;
                 height: 5.66666667vh;
             }
         }
@@ -39,7 +40,7 @@
         align-items: center;
         gap: 1.11111111vw;
 
-        padding-top: 8.77777778vh;
+        margin-top: 5.48611111vh;
         color: #fff;
         text-decoration: none;
         img {

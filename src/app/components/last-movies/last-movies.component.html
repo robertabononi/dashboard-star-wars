@@ -1,0 +1,23 @@
+<div class="last-movies-board">
+    <h3>Últimos filmes</h3>
+    <p class="subtitle">Saiba os últimos lançamentos da marca</p>
+
+    <div *ngIf="!movies" class="loading">
+        <img src="../../../assets/images/loading.gif" alt>
+    </div>
+
+    <table *ngIf="movies">
+        <tr>
+            <th>Título</th>
+            <th>Estréia</th>
+            <th>Diretor</th>
+            <th>Episode</th>
+        </tr>
+        <tr *ngFor="let movie of movies">
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.release_date | date: 'dd/MM/yyyy' }}</td>
+            <td>{{ movie.director }}</td>
+            <td>{{ movie.episode_id }}</td>
+        </tr>
+    </table>
+</div>
