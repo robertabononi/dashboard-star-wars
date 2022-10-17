@@ -13,6 +13,18 @@ export class DashboardService {
   ) { }
 
   getMovies(): Observable<Object> {
-    return this.http.get(`${this.baseUrl}/films`);
+    return this.http.get(`${this.baseUrl}films`);
+  }
+
+  getCharacters(): Observable<Object> {
+    return this.http.get(`${this.baseUrl}people`);
+  }
+
+  getPlanets(): Observable<Object> {
+    return this.http.get(`${this.baseUrl}planets`);
+  }
+
+  getVehicles(): Observable<Object> {
+    return this.http.get(`${this.baseUrl}vehicles`);
   }
 }

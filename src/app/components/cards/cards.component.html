@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card__infos">
             <p class="card-title">Personagens</p>
-            <span class="card-number">45</span>
+            <span class="card-number" *ngIf="characters">{{ characters.count }}</span>
         </div>
         <div class="card__image">
             <img src="../../../assets/images/personagens-black.svg" alt>
@@ -13,7 +13,7 @@
         <div class="double-card">
             <div class="double-card__infos">
                 <p class="card-title">Luas</p>
-                <span class="card-number">8</span>
+                <span class="card-number" *ngIf="vehicles">8</span>
             </div>
             <div class="card__image">
                 <img src="../../../assets/images/luas-black.svg" alt>
@@ -23,7 +23,7 @@
         <div class="double-card">
             <div class="double-card__infos">
                 <p class="card-title">Planetas</p>
-                <span class="card-number">24</span>
+                <span class="card-number" *ngIf="planets">{{ planets.count }}</span>
             </div>
             <div class="card__image">
                 <img src="../../../assets/images/planetas-black.svg" alt>
@@ -34,7 +34,7 @@
     <div class="card">
         <div class="card__infos">
             <p class="card-title">Naves</p>
-            <span class="card-number">22</span>
+            <span class="card-number" *ngIf="vehicles">{{ vehicles.count }}</span>
         </div>
         <div class="card__image">
             <img src="../../../assets/images/nave-black.svg" alt>
